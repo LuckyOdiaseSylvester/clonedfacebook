@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    flex-direction: column;
+    margin-top: 25vw;
+    margin-bottom: 25vw;
+}
+
+.container{
+border-radius: 35px;
+    border: 2px solid green;
+width: 50%;
+padding: 2%;
+ background-color: beige;
+ margin-top: 50px;
+
+ margin-bottom: 150px;
+ padding-bottom: 70px;
+
+}
+.header1{
+    display: flex;
+ 
+
+justify-content: space-between;
+align-items: center;
+
+}
+.logLeft{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2vw;
+}
+.logo2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    border-bottom: 2px solid gainsboro;
+    padding-bottom: 7px;
+    align-items: center;
+}
+.logo3{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 2px solid gainsboro;
+  padding-bottom: 10px;
+
+align-items: center;}
+.logo{
+    font-size: 5vw;
+    color: rgb(7, 7, 148);
+    font-weight: bold;
+}
+
+.bx-search-alt-2{
+    font-size: 5vw;
+    background-color: rgb(194, 181, 181);
+    border: none;
+    border-radius: 50%;
+    padding: 3px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+}
+.bx-grid-horizontal{
+    font-size: 5vw;
+    background-color: rgb(194, 181, 181);
+    border-radius: 50%;
+    padding: 3px;
+}
+.bx-home-alt-2{
+font-size: 5vw;
+color: blue;
+
+}
+.bx-group{
+    font-size: 5vw;  
+}
+.bx-message-rounded-dots{
+    font-size: 5vw; 
+}
+.bx-bell{
+    font-size: 5vw; 
+}
+.bx-tv{
+    font-size: 5vw; 
+}
+.bx-store-alt{
+    font-size: 5vw; 
+}
+.chat1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(255, 0, 0);
+    height: 3vw;
+    width: 3vw;
+    text-align: center;
+border-radius: 50%;
+color: white;
+font-size: 2vw;
+}
+.chat{
+    position: relative;
+}
+.bell2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(253, 0, 0);
+    height: 3vw;
+    width: 3vw;
+    text-align: center;
+border-radius: 50%;
+color: white;
+font-size: 2vw;
+}
+.bell{
+    position: relative;
+}
+
+
+.home2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(253, 0, 0);
+    height: 3vw;
+    width: 3vw;
+    text-align: center;
+border-radius: 50%;
+color: white;
+font-size: 2vw;
+}
+.home{
+    position: relative;
+}
+
+
+.video2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(253, 0, 0);
+    height: 3vw;
+    width: 4vw;
+    padding-left: 4px;
+   margin-left: 2px;
+    text-align: center;
+border-radius: 50%;
+color: white;
+font-size: 2vw;
+}
+.video{
+    position: relative;
+}
+.pic{
+    height: 6vw;
+    width: 6vw;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+.what{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+  
+}
+input{
+    font-size: 2vw;
+    font-weight: bold;
+    width: 29vw;
+  display: flex;
+    padding: 8px 7px;
+    border-radius: 35px;
+    background-color: gainsboro;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+.bx-images{
+font-size: 6vw;
+
+}
+.upload{
+margin-right: 20px;
+margin-left: 10px;
+}
+.profile{
+    margin-right: 8px;
+}
+.logo4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+ 
+   
+    align-items: center;
+    padding: 10px 0px;
+}
+.feel1{
+    display: flex;
+    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.live1{
+    display: flex;
+    border-left: 2px solid gainsboro;
+    border-right: 2px solid gainsboro;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.location1{
+    display: flex;
+   margin-left: 5%;
+   justify-content: center;
+   align-items: center;
+   
+}
+.bxs-smile{
+    color: rgb(200, 200, 8);
+    font-weight: bold;
+    font-size: 3vw;
+    margin-right: 1vw;
+}
+.bxs-video{
+    color: red;
+    font-size: 3vw;
+    margin-right: 1vw;
+}
+.bxs-location-plus{
+    color: red;
+    font-size: 3vw;
+    margin-right: 1vw;
+}
+.car1,.car2,.car3{
+   
+    height: 200px;
+    width: 14.5vw;
+    border-radius: 18px;
+    box-shadow: 0px 5px 12px rgba(255,255, 255, 0.8);
+}
+.car1{
+    margin-right: 5px;
+    position: relative;
+}
+.car3{
+    margin-left: 5px;
+   
+}
+.status1{
+ 
+  
+    margin-right: 3px;
+    position: relative;
+
+}
+.car11{
+    position: absolute;
+    right: 0;
+    background-color: aliceblue;
+ text-align: center;
+  
+    left: 0;
+    top: 140px;
+    bottom: 0;
+padding-top: 10px;
+
+    font-weight: bold;
+  
+   
+   
+}
+.car111{
+    position: absolute;
+    background-color: blue;
+ top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 45px;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+.status2,.status3{
+     position: relative;
+
+}
+.status{
+    display: flex;
+    box-shadow: 0px 5px 12px rgba(97, 93, 93, 0.9);
+
+margin-bottom: 5px;
+
+padding-bottom: 10px;
+}
+
+
+.car22
+{
+position: absolute;
+top: 160px;
+left: 10px;
+font-weight: bold;
+color: white;
+}
+
+.car222{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.car33
+{
+position: absolute;
+top: 160px;
+left: 15px;
+font-weight: bold;
+color: white;
+}
+
+.car333{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+    font-weight: bold;
+}
+.feed{
+    height: 40vw;
+    background-color: aqua;
+    margin-top: 10px;
+}
+.feedheader{
+    height: 20%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50px 50px 1fr 30px 40px;
+    align-items: center;
+}
+.timer{
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.pic2{
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    border-radius: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+.bx-like{
+    font-size: 2.5vw;
+
+}
+.dot{
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+}
+.bx-dots-horizontal{
+    display: flex;
+    font-size: 25px;
+    color: rgb(124, 119, 119);
+}
+.name{
+    font-weight: bold;
+}
+.time{
+    font-size: 15px;
+}
+.element{
+    color: gainsboro;
+}
+.feedmain{
+ background-image: url("images/Penguins.jpg");
+ height: 25vw;
+ width:100%;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.feedfooter{
+    height: 25%;
+    background-color: white;
+    
+}
+.reaction{
+    display: flex;
+    
+padding-top: 5px;
+align-items: center;
+}
+.message{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.first{
+    background-color: gainsboro;
+    width: 10vw;
+    text-align: center;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    gap: 2px;
+}
+.second{
+    background-color: gainsboro;
+    width: 10vw;
+    text-align: center;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    gap: 2px;
+}
+.third{
+    background-color: gainsboro;
+    width: 10vw;
+    text-align: center;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    gap: 2px;
+}
+.like1{
+    background-color: blue;
+border-radius: 50%;
+}
+.bxs-like{
+    color: white;
+    padding: 2px;
+    font-size: 2.5vw;
+}
+.bx-smile{
+    color: rgba(219, 219, 0, 0.986);
+    font-size: 3vw;
+}
+.bx-like{
+    font-size: 3vw;
+}
+.bx-message{
+    font-size: 3vw;
+    padding-top: 3px;
+
+}
+.bx-flip-horizontal{
+    font-size: 3vw;
+
+
+}
+.value1,.value2,.value3,.number{
+    font-size: 2.4vw;
+}
